@@ -1,0 +1,3402 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "build.gradle.kts",
+      "source_location": "L1",
+      "id": "build_gradle_kts",
+      "community": 18,
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "settings.gradle.kts",
+      "file_type": "code",
+      "source_file": "settings.gradle.kts",
+      "source_location": "L1",
+      "id": "settings_gradle_kts",
+      "community": 19,
+      "norm_label": "settings.gradle.kts"
+    },
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "app/build.gradle.kts",
+      "source_location": "L1",
+      "id": "app_build_gradle_kts",
+      "community": 20,
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "MainActivity.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "community": 3,
+      "norm_label": "mainactivity.kt"
+    },
+    {
+      "label": "MainActivity",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L39",
+      "id": "summarylog_mainactivity_mainactivity",
+      "community": 3,
+      "norm_label": "mainactivity"
+    },
+    {
+      "label": ".onCreate()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L40",
+      "id": "summarylog_mainactivity_mainactivity_oncreate",
+      "community": 3,
+      "norm_label": ".oncreate()"
+    },
+    {
+      "label": "isNotificationAccessGranted()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L52",
+      "id": "summarylog_mainactivity_isnotificationaccessgranted",
+      "community": 3,
+      "norm_label": "isnotificationaccessgranted()"
+    },
+    {
+      "label": "openNotificationAccessSettings()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L57",
+      "id": "summarylog_mainactivity_opennotificationaccesssettings",
+      "community": 3,
+      "norm_label": "opennotificationaccesssettings()"
+    },
+    {
+      "label": "AppTab",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L61",
+      "id": "summarylog_mainactivity_apptab",
+      "community": 3,
+      "norm_label": "apptab"
+    },
+    {
+      "label": "SummaryLogRootScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L68",
+      "id": "summarylog_mainactivity_summarylogrootscreen",
+      "community": 3,
+      "norm_label": "summarylogrootscreen()"
+    },
+    {
+      "label": "SummaryLogApp()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L134",
+      "id": "summarylog_mainactivity_summarylogapp",
+      "community": 3,
+      "norm_label": "summarylogapp()"
+    },
+    {
+      "label": "NotificationRepository.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_notificationrepository_kt",
+      "community": 5,
+      "norm_label": "notificationrepository.kt"
+    },
+    {
+      "label": "NotificationRepository",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L8",
+      "id": "summarylog_notificationrepository_notificationrepository",
+      "community": 5,
+      "norm_label": "notificationrepository"
+    },
+    {
+      "label": ".getNotifications()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L9",
+      "id": "summarylog_notificationrepository_notificationrepository_getnotifications",
+      "community": 5,
+      "norm_label": ".getnotifications()"
+    },
+    {
+      "label": "NotificationCollectorService.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_notificationcollectorservice_kt",
+      "community": 5,
+      "norm_label": "notificationcollectorservice.kt"
+    },
+    {
+      "label": "NotificationCollectorService",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L16",
+      "id": "summarylog_notificationcollectorservice_notificationcollectorservice",
+      "community": 5,
+      "norm_label": "notificationcollectorservice"
+    },
+    {
+      "label": ".onCreate()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L20",
+      "id": "summarylog_notificationcollectorservice_notificationcollectorservice_oncreate",
+      "community": 5,
+      "norm_label": ".oncreate()"
+    },
+    {
+      "label": ".onNotificationPosted()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L25",
+      "id": "summarylog_notificationcollectorservice_notificationcollectorservice_onnotificationposted",
+      "community": 5,
+      "norm_label": ".onnotificationposted()"
+    },
+    {
+      "label": ".onDestroy()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L69",
+      "id": "summarylog_notificationcollectorservice_notificationcollectorservice_ondestroy",
+      "community": 5,
+      "norm_label": ".ondestroy()"
+    },
+    {
+      "label": "ChatMessage.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ChatMessage.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_chatmessage_kt",
+      "community": 4,
+      "norm_label": "chatmessage.kt"
+    },
+    {
+      "label": "ChatMessage",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ChatMessage.kt",
+      "source_location": "L5",
+      "id": "summarylog_chatmessage_chatmessage",
+      "community": 4,
+      "norm_label": "chatmessage"
+    },
+    {
+      "label": "SummaryLogMainScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_summarylogmainscreen_kt",
+      "community": 4,
+      "norm_label": "summarylogmainscreen.kt"
+    },
+    {
+      "label": "SummaryLogMainScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L81",
+      "id": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "community": 4,
+      "norm_label": "summarylogmainscreen()"
+    },
+    {
+      "label": "ResizableSummaryLogsWindow()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L420",
+      "id": "summarylog_summarylogmainscreen_resizablesummarylogswindow",
+      "community": 4,
+      "norm_label": "resizablesummarylogswindow()"
+    },
+    {
+      "label": "ChatBubble()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L508",
+      "id": "summarylog_summarylogmainscreen_chatbubble",
+      "community": 4,
+      "norm_label": "chatbubble()"
+    },
+    {
+      "label": "RoomAnchor.java",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/RoomAnchor.java",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_roomanchor_java",
+      "community": 17,
+      "norm_label": "roomanchor.java"
+    },
+    {
+      "label": "NotificationItem.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationItem.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_notificationitem_kt",
+      "community": 5,
+      "norm_label": "notificationitem.kt"
+    },
+    {
+      "label": "NotificationItem",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationItem.kt",
+      "source_location": "L3",
+      "id": "summarylog_notificationitem_notificationitem",
+      "community": 5,
+      "norm_label": "notificationitem"
+    },
+    {
+      "label": "MarkdownText.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_markdowntext_kt",
+      "community": 0,
+      "norm_label": "markdowntext.kt"
+    },
+    {
+      "label": "MarkdownText()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L17",
+      "id": "ui_markdowntext_markdowntext",
+      "community": 0,
+      "norm_label": "markdowntext()"
+    },
+    {
+      "label": "parseInlineMarkdown()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L74",
+      "id": "ui_markdowntext_parseinlinemarkdown",
+      "community": 0,
+      "norm_label": "parseinlinemarkdown()"
+    },
+    {
+      "label": "BlinkingCursor.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/BlinkingCursor.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_blinkingcursor_kt",
+      "community": 0,
+      "norm_label": "blinkingcursor.kt"
+    },
+    {
+      "label": "BlinkingCursor()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/BlinkingCursor.kt",
+      "source_location": "L16",
+      "id": "ui_blinkingcursor_blinkingcursor",
+      "community": 0,
+      "norm_label": "blinkingcursor()"
+    },
+    {
+      "label": "CodeBlockView.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/CodeBlockView.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_codeblockview_kt",
+      "community": 0,
+      "norm_label": "codeblockview.kt"
+    },
+    {
+      "label": "CodeBlockView()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/CodeBlockView.kt",
+      "source_location": "L39",
+      "id": "ui_codeblockview_codeblockview",
+      "community": 0,
+      "norm_label": "codeblockview()"
+    },
+    {
+      "label": "RichMarkdownContent.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_richmarkdowncontent_kt",
+      "community": 0,
+      "norm_label": "richmarkdowncontent.kt"
+    },
+    {
+      "label": "MarkdownSegment",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L12",
+      "id": "ui_richmarkdowncontent_markdownsegment",
+      "community": 0,
+      "norm_label": "markdownsegment"
+    },
+    {
+      "label": "Text",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L13",
+      "id": "ui_richmarkdowncontent_text",
+      "community": 0,
+      "norm_label": "text"
+    },
+    {
+      "label": "Code",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L14",
+      "id": "ui_richmarkdowncontent_code",
+      "community": 0,
+      "norm_label": "code"
+    },
+    {
+      "label": "RichMarkdownContent()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L17",
+      "id": "ui_richmarkdowncontent_richmarkdowncontent",
+      "community": 0,
+      "norm_label": "richmarkdowncontent()"
+    },
+    {
+      "label": "ClearChatConfirmationDialog.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ClearChatConfirmationDialog.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_clearchatconfirmationdialog_kt",
+      "community": 4,
+      "norm_label": "clearchatconfirmationdialog.kt"
+    },
+    {
+      "label": "ClearChatConfirmationDialog()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ClearChatConfirmationDialog.kt",
+      "source_location": "L15",
+      "id": "ui_clearchatconfirmationdialog_clearchatconfirmationdialog",
+      "community": 4,
+      "norm_label": "clearchatconfirmationdialog()"
+    },
+    {
+      "label": "ChatSectionHeader.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ChatSectionHeader.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_chatsectionheader_kt",
+      "community": 4,
+      "norm_label": "chatsectionheader.kt"
+    },
+    {
+      "label": "ChatSectionHeader()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ChatSectionHeader.kt",
+      "source_location": "L26",
+      "id": "ui_chatsectionheader_chatsectionheader",
+      "community": 4,
+      "norm_label": "chatsectionheader()"
+    },
+    {
+      "label": "Color.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/theme/Color.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_theme_color_kt",
+      "community": 21,
+      "norm_label": "color.kt"
+    },
+    {
+      "label": "Theme.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/theme/Theme.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_theme_theme_kt",
+      "community": 3,
+      "norm_label": "theme.kt"
+    },
+    {
+      "label": "SummaryLogTheme()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/theme/Theme.kt",
+      "source_location": "L43",
+      "id": "theme_theme_summarylogtheme",
+      "community": 3,
+      "norm_label": "summarylogtheme()"
+    },
+    {
+      "label": "Type.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/theme/Type.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_theme_type_kt",
+      "community": 22,
+      "norm_label": "type.kt"
+    },
+    {
+      "label": "AppWhitelistScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_settings_appwhitelistscreen_kt",
+      "community": 9,
+      "norm_label": "appwhitelistscreen.kt"
+    },
+    {
+      "label": "InstalledAppItem",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L52",
+      "id": "settings_appwhitelistscreen_installedappitem",
+      "community": 9,
+      "norm_label": "installedappitem"
+    },
+    {
+      "label": "loadInstalledApps()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L59",
+      "id": "settings_appwhitelistscreen_loadinstalledapps",
+      "community": 9,
+      "norm_label": "loadinstalledapps()"
+    },
+    {
+      "label": "AppWhitelistScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L84",
+      "id": "settings_appwhitelistscreen_appwhitelistscreen",
+      "community": 9,
+      "norm_label": "appwhitelistscreen()"
+    },
+    {
+      "label": "ConversationListScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationlistscreen_kt",
+      "community": 0,
+      "norm_label": "conversationlistscreen.kt"
+    },
+    {
+      "label": "ConversationListScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L47",
+      "id": "conversations_conversationlistscreen_conversationlistscreen",
+      "community": 0,
+      "norm_label": "conversationlistscreen()"
+    },
+    {
+      "label": "ConversationItemRow()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L113",
+      "id": "conversations_conversationlistscreen_conversationitemrow",
+      "community": 0,
+      "norm_label": "conversationitemrow()"
+    },
+    {
+      "label": "ConversationDetailScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationdetailscreen_kt",
+      "community": 6,
+      "norm_label": "conversationdetailscreen.kt"
+    },
+    {
+      "label": "openSourceApp()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L49",
+      "id": "conversations_conversationdetailscreen_opensourceapp",
+      "community": 6,
+      "norm_label": "opensourceapp()"
+    },
+    {
+      "label": "ConversationDetailScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L58",
+      "id": "conversations_conversationdetailscreen_conversationdetailscreen",
+      "community": 6,
+      "norm_label": "conversationdetailscreen()"
+    },
+    {
+      "label": "MessageBubbleItem()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L138",
+      "id": "conversations_conversationdetailscreen_messagebubbleitem",
+      "community": 6,
+      "norm_label": "messagebubbleitem()"
+    },
+    {
+      "label": "ConversationThreadsContainerScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationthreadscontainerscreen_kt",
+      "community": 6,
+      "norm_label": "conversationthreadscontainerscreen.kt"
+    },
+    {
+      "label": "ConversationThreadsContainerScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt",
+      "source_location": "L16",
+      "id": "conversations_conversationthreadscontainerscreen_conversationthreadscontainerscreen",
+      "community": 6,
+      "norm_label": "conversationthreadscontainerscreen()"
+    },
+    {
+      "label": "ConversationFeedScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationFeedScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationfeedscreen_kt",
+      "community": 3,
+      "norm_label": "conversationfeedscreen.kt"
+    },
+    {
+      "label": "ConversationFeedScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationFeedScreen.kt",
+      "source_location": "L46",
+      "id": "conversations_conversationfeedscreen_conversationfeedscreen",
+      "community": 3,
+      "norm_label": "conversationfeedscreen()"
+    },
+    {
+      "label": "SearchBarView.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/components/SearchBarView.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_components_searchbarview_kt",
+      "community": 0,
+      "norm_label": "searchbarview.kt"
+    },
+    {
+      "label": "NotificationSearchBar()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/components/SearchBarView.kt",
+      "source_location": "L23",
+      "id": "components_searchbarview_notificationsearchbar",
+      "community": 0,
+      "norm_label": "notificationsearchbar()"
+    },
+    {
+      "label": "InsightsScreen.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ui_insights_insightsscreen_kt",
+      "community": 0,
+      "norm_label": "insightsscreen.kt"
+    },
+    {
+      "label": "InsightsScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L33",
+      "id": "insights_insightsscreen_insightsscreen",
+      "community": 0,
+      "norm_label": "insightsscreen()"
+    },
+    {
+      "label": "StatMetricCard()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L104",
+      "id": "insights_insightsscreen_statmetriccard",
+      "community": 0,
+      "norm_label": "statmetriccard()"
+    },
+    {
+      "label": "TopAppProgressRow()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L119",
+      "id": "insights_insightsscreen_topappprogressrow",
+      "community": 0,
+      "norm_label": "topappprogressrow()"
+    },
+    {
+      "label": "PrototypeChatEngine.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/PrototypeChatEngine.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ai_prototypechatengine_kt",
+      "community": 11,
+      "norm_label": "prototypechatengine.kt"
+    },
+    {
+      "label": "PrototypeChatEngine",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/PrototypeChatEngine.kt",
+      "source_location": "L5",
+      "id": "ai_prototypechatengine_prototypechatengine",
+      "community": 11,
+      "norm_label": "prototypechatengine"
+    },
+    {
+      "label": ".generateReply()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/PrototypeChatEngine.kt",
+      "source_location": "L6",
+      "id": "ai_prototypechatengine_prototypechatengine_generatereply",
+      "community": 11,
+      "norm_label": ".generatereply()"
+    },
+    {
+      "label": "GeminiChatHelper.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_ai_geminichathelper_kt",
+      "community": 4,
+      "norm_label": "geminichathelper.kt"
+    },
+    {
+      "label": "GeminiChatHelper",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L11",
+      "id": "ai_geminichathelper_geminichathelper",
+      "community": 4,
+      "norm_label": "geminichathelper"
+    },
+    {
+      "label": ".streamQueryWithNotifications()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L18",
+      "id": "ai_geminichathelper_geminichathelper_streamquerywithnotifications",
+      "community": 4,
+      "norm_label": ".streamquerywithnotifications()"
+    },
+    {
+      "label": ".queryWithNotifications()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L45",
+      "id": "ai_geminichathelper_geminichathelper_querywithnotifications",
+      "community": 4,
+      "norm_label": ".querywithnotifications()"
+    },
+    {
+      "label": "AppDatabase.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "community": 2,
+      "norm_label": "appdatabase.kt"
+    },
+    {
+      "label": "NotificationEntity",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L17",
+      "id": "data_appdatabase_notificationentity",
+      "community": 5,
+      "norm_label": "notificationentity"
+    },
+    {
+      "label": "AppStat",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L36",
+      "id": "data_appdatabase_appstat",
+      "community": 2,
+      "norm_label": "appstat"
+    },
+    {
+      "label": "MonitoredAppEntity",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L42",
+      "id": "data_appdatabase_monitoredappentity",
+      "community": 9,
+      "norm_label": "monitoredappentity"
+    },
+    {
+      "label": "ConversationMetaEntity",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L49",
+      "id": "data_appdatabase_conversationmetaentity",
+      "community": 6,
+      "norm_label": "conversationmetaentity"
+    },
+    {
+      "label": "ConversationSummary",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L55",
+      "id": "data_appdatabase_conversationsummary",
+      "community": 2,
+      "norm_label": "conversationsummary"
+    },
+    {
+      "label": "NotificationDao",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L66",
+      "id": "data_appdatabase_notificationdao",
+      "community": 1,
+      "norm_label": "notificationdao"
+    },
+    {
+      "label": ".insert()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L68",
+      "id": "data_appdatabase_notificationdao_insert",
+      "community": 1,
+      "norm_label": ".insert()"
+    },
+    {
+      "label": ".getConversations()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L71",
+      "id": "data_appdatabase_notificationdao_getconversations",
+      "community": 1,
+      "norm_label": ".getconversations()"
+    },
+    {
+      "label": ".getConversationThreads()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L88",
+      "id": "data_appdatabase_notificationdao_getconversationthreads",
+      "community": 1,
+      "norm_label": ".getconversationthreads()"
+    },
+    {
+      "label": ".searchConversationThreads()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L104",
+      "id": "data_appdatabase_notificationdao_searchconversationthreads",
+      "community": 1,
+      "norm_label": ".searchconversationthreads()"
+    },
+    {
+      "label": ".searchAllNotifications()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L123",
+      "id": "data_appdatabase_notificationdao_searchallnotifications",
+      "community": 1,
+      "norm_label": ".searchallnotifications()"
+    },
+    {
+      "label": ".getMessagesForConversation()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L131",
+      "id": "data_appdatabase_notificationdao_getmessagesforconversation",
+      "community": 1,
+      "norm_label": ".getmessagesforconversation()"
+    },
+    {
+      "label": ".getAllNotifications()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L138",
+      "id": "data_appdatabase_notificationdao_getallnotifications",
+      "community": 1,
+      "norm_label": ".getallnotifications()"
+    },
+    {
+      "label": ".setConversationMeta()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L141",
+      "id": "data_appdatabase_notificationdao_setconversationmeta",
+      "community": 1,
+      "norm_label": ".setconversationmeta()"
+    },
+    {
+      "label": ".markAllAsRead()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L144",
+      "id": "data_appdatabase_notificationdao_markallasread",
+      "community": 1,
+      "norm_label": ".markallasread()"
+    },
+    {
+      "label": ".markBatchAsRead()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L147",
+      "id": "data_appdatabase_notificationdao_markbatchasread",
+      "community": 1,
+      "norm_label": ".markbatchasread()"
+    },
+    {
+      "label": ".deleteBatch()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L150",
+      "id": "data_appdatabase_notificationdao_deletebatch",
+      "community": 1,
+      "norm_label": ".deletebatch()"
+    },
+    {
+      "label": ".deleteById()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L153",
+      "id": "data_appdatabase_notificationdao_deletebyid",
+      "community": 1,
+      "norm_label": ".deletebyid()"
+    },
+    {
+      "label": ".deleteConversation()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L156",
+      "id": "data_appdatabase_notificationdao_deleteconversation",
+      "community": 1,
+      "norm_label": ".deleteconversation()"
+    },
+    {
+      "label": ".deleteOlderThan()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L159",
+      "id": "data_appdatabase_notificationdao_deleteolderthan",
+      "community": 1,
+      "norm_label": ".deleteolderthan()"
+    },
+    {
+      "label": ".clearAll()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L162",
+      "id": "data_appdatabase_notificationdao_clearall",
+      "community": 1,
+      "norm_label": ".clearall()"
+    },
+    {
+      "label": ".getTotalCount()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L165",
+      "id": "data_appdatabase_notificationdao_gettotalcount",
+      "community": 1,
+      "norm_label": ".gettotalcount()"
+    },
+    {
+      "label": ".getCountSince()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L168",
+      "id": "data_appdatabase_notificationdao_getcountsince",
+      "community": 1,
+      "norm_label": ".getcountsince()"
+    },
+    {
+      "label": ".getTopApps()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L171",
+      "id": "data_appdatabase_notificationdao_gettopapps",
+      "community": 1,
+      "norm_label": ".gettopapps()"
+    },
+    {
+      "label": "MonitoredAppDao",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L181",
+      "id": "data_appdatabase_monitoredappdao",
+      "community": 2,
+      "norm_label": "monitoredappdao"
+    },
+    {
+      "label": ".getAllMonitoredApps()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L183",
+      "id": "data_appdatabase_monitoredappdao_getallmonitoredapps",
+      "community": 2,
+      "norm_label": ".getallmonitoredapps()"
+    },
+    {
+      "label": ".getMonitoredPackageNames()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L186",
+      "id": "data_appdatabase_monitoredappdao_getmonitoredpackagenames",
+      "community": 2,
+      "norm_label": ".getmonitoredpackagenames()"
+    },
+    {
+      "label": ".isAppMonitored()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L189",
+      "id": "data_appdatabase_monitoredappdao_isappmonitored",
+      "community": 2,
+      "norm_label": ".isappmonitored()"
+    },
+    {
+      "label": ".getMonitoredAppsCount()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L192",
+      "id": "data_appdatabase_monitoredappdao_getmonitoredappscount",
+      "community": 2,
+      "norm_label": ".getmonitoredappscount()"
+    },
+    {
+      "label": ".setAppMonitoring()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L195",
+      "id": "data_appdatabase_monitoredappdao_setappmonitoring",
+      "community": 2,
+      "norm_label": ".setappmonitoring()"
+    },
+    {
+      "label": ".setAppMonitoringBatch()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L198",
+      "id": "data_appdatabase_monitoredappdao_setappmonitoringbatch",
+      "community": 2,
+      "norm_label": ".setappmonitoringbatch()"
+    },
+    {
+      "label": ".insertAppsIfAbsent()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L201",
+      "id": "data_appdatabase_monitoredappdao_insertappsifabsent",
+      "community": 2,
+      "norm_label": ".insertappsifabsent()"
+    },
+    {
+      "label": "ChatMessageEntity",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L205",
+      "id": "data_appdatabase_chatmessageentity",
+      "community": 2,
+      "norm_label": "chatmessageentity"
+    },
+    {
+      "label": "ChatDao",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L213",
+      "id": "data_appdatabase_chatdao",
+      "community": 2,
+      "norm_label": "chatdao"
+    },
+    {
+      "label": ".getAllMessages()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L215",
+      "id": "data_appdatabase_chatdao_getallmessages",
+      "community": 2,
+      "norm_label": ".getallmessages()"
+    },
+    {
+      "label": ".insertMessage()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L218",
+      "id": "data_appdatabase_chatdao_insertmessage",
+      "community": 2,
+      "norm_label": ".insertmessage()"
+    },
+    {
+      "label": ".updateMessage()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L221",
+      "id": "data_appdatabase_chatdao_updatemessage",
+      "community": 2,
+      "norm_label": ".updatemessage()"
+    },
+    {
+      "label": ".clearChat()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L224",
+      "id": "data_appdatabase_chatdao_clearchat",
+      "community": 2,
+      "norm_label": ".clearchat()"
+    },
+    {
+      "label": "AppDatabase",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L228",
+      "id": "data_appdatabase_appdatabase",
+      "community": 7,
+      "norm_label": "appdatabase"
+    },
+    {
+      "label": ".notificationDao()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L234",
+      "id": "data_appdatabase_appdatabase_notificationdao",
+      "community": 7,
+      "norm_label": ".notificationdao()"
+    },
+    {
+      "label": ".monitoredAppDao()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L235",
+      "id": "data_appdatabase_appdatabase_monitoredappdao",
+      "community": 7,
+      "norm_label": ".monitoredappdao()"
+    },
+    {
+      "label": ".chatDao()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L236",
+      "id": "data_appdatabase_appdatabase_chatdao",
+      "community": 7,
+      "norm_label": ".chatdao()"
+    },
+    {
+      "label": "getDatabase()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L242",
+      "id": "data_appdatabase_getdatabase",
+      "community": 2,
+      "norm_label": "getdatabase()"
+    },
+    {
+      "label": "NotificationDao.java",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/NotificationDao.java",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_data_notificationdao_java",
+      "community": 23,
+      "norm_label": "notificationdao.java"
+    },
+    {
+      "label": "NotificationPruneWorker.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_worker_notificationpruneworker_kt",
+      "community": 10,
+      "norm_label": "notificationpruneworker.kt"
+    },
+    {
+      "label": "NotificationPruneWorker",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L14",
+      "id": "worker_notificationpruneworker_notificationpruneworker",
+      "community": 10,
+      "norm_label": "notificationpruneworker"
+    },
+    {
+      "label": ".doWork()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L19",
+      "id": "worker_notificationpruneworker_notificationpruneworker_dowork",
+      "community": 10,
+      "norm_label": ".dowork()"
+    },
+    {
+      "label": "schedule()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L35",
+      "id": "worker_notificationpruneworker_schedule",
+      "community": 10,
+      "norm_label": "schedule()"
+    },
+    {
+      "label": "PdfExporter.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/PdfExporter.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_util_pdfexporter_kt",
+      "community": 12,
+      "norm_label": "pdfexporter.kt"
+    },
+    {
+      "label": "PdfExporter",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/PdfExporter.kt",
+      "source_location": "L12",
+      "id": "util_pdfexporter_pdfexporter",
+      "community": 12,
+      "norm_label": "pdfexporter"
+    },
+    {
+      "label": ".exportConversationToPdf()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/PdfExporter.kt",
+      "source_location": "L13",
+      "id": "util_pdfexporter_pdfexporter_exportconversationtopdf",
+      "community": 12,
+      "norm_label": ".exportconversationtopdf()"
+    },
+    {
+      "label": "NotificationImageHelper.kt",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/NotificationImageHelper.kt",
+      "source_location": "L1",
+      "id": "app_src_main_java_com_ts_summarylog_util_notificationimagehelper_kt",
+      "community": 13,
+      "norm_label": "notificationimagehelper.kt"
+    },
+    {
+      "label": "NotificationImageHelper",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/NotificationImageHelper.kt",
+      "source_location": "L12",
+      "id": "util_notificationimagehelper_notificationimagehelper",
+      "community": 13,
+      "norm_label": "notificationimagehelper"
+    },
+    {
+      "label": ".extractAndSaveImage()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/NotificationImageHelper.kt",
+      "source_location": "L14",
+      "id": "util_notificationimagehelper_notificationimagehelper_extractandsaveimage",
+      "community": 13,
+      "norm_label": ".extractandsaveimage()"
+    },
+    {
+      "label": "ExampleUnitTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/ts/summarylog/ExampleUnitTest.kt",
+      "source_location": "L1",
+      "id": "app_src_test_java_com_ts_summarylog_exampleunittest_kt",
+      "community": 14,
+      "norm_label": "exampleunittest.kt"
+    },
+    {
+      "label": "ExampleUnitTest",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/ts/summarylog/ExampleUnitTest.kt",
+      "source_location": "L12",
+      "id": "summarylog_exampleunittest_exampleunittest",
+      "community": 14,
+      "norm_label": "exampleunittest"
+    },
+    {
+      "label": ".addition_isCorrect()",
+      "file_type": "code",
+      "source_file": "app/src/test/java/com/ts/summarylog/ExampleUnitTest.kt",
+      "source_location": "L13",
+      "id": "summarylog_exampleunittest_exampleunittest_addition_iscorrect",
+      "community": 14,
+      "norm_label": ".addition_iscorrect()"
+    },
+    {
+      "label": "ExampleInstrumentedTest.kt",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/java/com/ts/summarylog/ExampleInstrumentedTest.kt",
+      "source_location": "L1",
+      "id": "app_src_androidtest_java_com_ts_summarylog_exampleinstrumentedtest_kt",
+      "community": 15,
+      "norm_label": "exampleinstrumentedtest.kt"
+    },
+    {
+      "label": "ExampleInstrumentedTest",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/java/com/ts/summarylog/ExampleInstrumentedTest.kt",
+      "source_location": "L16",
+      "id": "summarylog_exampleinstrumentedtest_exampleinstrumentedtest",
+      "community": 15,
+      "norm_label": "exampleinstrumentedtest"
+    },
+    {
+      "label": ".useAppContext()",
+      "file_type": "code",
+      "source_file": "app/src/androidTest/java/com/ts/summarylog/ExampleInstrumentedTest.kt",
+      "source_location": "L18",
+      "id": "summarylog_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext",
+      "community": 15,
+      "norm_label": ".useappcontext()"
+    },
+    {
+      "label": "AppDestinations",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L93",
+      "community": 3,
+      "norm_label": "appdestinations",
+      "id": "summarylog_mainactivity_appdestinations"
+    },
+    {
+      "label": "Greeting()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L101",
+      "community": 3,
+      "norm_label": "greeting()",
+      "id": "summarylog_mainactivity_greeting"
+    },
+    {
+      "label": "GreetingPreview()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L109",
+      "community": 3,
+      "norm_label": "greetingpreview()",
+      "id": "summarylog_mainactivity_greetingpreview"
+    },
+    {
+      "label": ".searchNotifications()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L76",
+      "community": 1,
+      "norm_label": ".searchnotifications()",
+      "id": "data_appdatabase_notificationdao_searchnotifications"
+    },
+    {
+      "label": "ChatMessageEntity.java",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatMessageEntity.java",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "chatmessageentity.java",
+      "id": "app_src_main_java_com_ts_summarylog_data_chatmessageentity_java"
+    },
+    {
+      "label": "ChatDao.java",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "chatdao.java",
+      "id": "app_src_main_java_com_ts_summarylog_data_chatdao_java"
+    },
+    {
+      "label": "AppDatabase.java",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "appdatabase.java",
+      "id": "app_src_main_java_com_ts_summarylog_data_appdatabase_java"
+    },
+    {
+      "label": "NotificationEntity.java",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/NotificationEntity.java",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "notificationentity.java",
+      "id": "app_src_main_java_com_ts_summarylog_data_notificationentity_java"
+    },
+    {
+      "label": "NotificationItem",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L6",
+      "community": 5,
+      "norm_label": "notificationitem",
+      "id": "summarylog_notificationrepository_notificationitem"
+    },
+    {
+      "label": ".addNotification()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L18",
+      "community": 5,
+      "norm_label": ".addnotification()",
+      "id": "summarylog_notificationrepository_notificationrepository_addnotification"
+    },
+    {
+      "label": "RoomAnchor",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/RoomAnchor.java",
+      "source_location": "L3",
+      "community": 17,
+      "norm_label": "roomanchor",
+      "id": "summarylog_roomanchor_roomanchor"
+    },
+    {
+      "label": "ChatMessageEntity",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatMessageEntity.java",
+      "source_location": "L10",
+      "community": 16,
+      "norm_label": "chatmessageentity",
+      "id": "data_chatmessageentity_chatmessageentity"
+    },
+    {
+      "label": ".ChatMessageEntity()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatMessageEntity.java",
+      "source_location": "L19",
+      "community": 16,
+      "norm_label": ".chatmessageentity()",
+      "id": "data_chatmessageentity_chatmessageentity_chatmessageentity"
+    },
+    {
+      "label": "ChatDao",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L12",
+      "community": 8,
+      "norm_label": "chatdao",
+      "id": "data_chatdao_chatdao"
+    },
+    {
+      "label": ".getAllMessages()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L14",
+      "community": 8,
+      "norm_label": ".getallmessages()",
+      "id": "data_chatdao_chatdao_getallmessages"
+    },
+    {
+      "label": ".insertMessage()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L17",
+      "community": 8,
+      "norm_label": ".insertmessage()",
+      "id": "data_chatdao_chatdao_insertmessage"
+    },
+    {
+      "label": ".updateMessage()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L20",
+      "community": 8,
+      "norm_label": ".updatemessage()",
+      "id": "data_chatdao_chatdao_updatemessage"
+    },
+    {
+      "label": ".clearChat()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L23",
+      "community": 8,
+      "norm_label": ".clearchat()",
+      "id": "data_chatdao_chatdao_clearchat"
+    },
+    {
+      "label": "RoomDatabase",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "",
+      "community": 7,
+      "norm_label": "roomdatabase",
+      "id": "roomdatabase"
+    },
+    {
+      "label": ".getDatabase()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "L14",
+      "community": 7,
+      "norm_label": ".getdatabase()",
+      "id": "data_appdatabase_appdatabase_getdatabase"
+    },
+    {
+      "label": "NotificationLogScreen()",
+      "file_type": "code",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L66",
+      "community": 3,
+      "norm_label": "notificationlogscreen()",
+      "id": "summarylog_mainactivity_notificationlogscreen"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_mainactivity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_isnotificationaccessgranted"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_opennotificationaccesssettings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_apptab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_summarylogrootscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_summarylogapp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_appdestinations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_greeting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L166",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_greetingpreview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_mainactivity_kt",
+      "target": "summarylog_mainactivity_notificationlogscreen"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_mainactivity",
+      "target": "summarylog_mainactivity_mainactivity_oncreate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_mainactivity_oncreate",
+      "target": "summarylog_mainactivity_summarylogrootscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_mainactivity_oncreate",
+      "target": "theme_theme_summarylogtheme"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_mainactivity_oncreate",
+      "target": "summarylog_mainactivity_summarylogapp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "summarylog_mainactivity_isnotificationaccessgranted"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_notificationlogscreen",
+      "target": "summarylog_mainactivity_isnotificationaccessgranted"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "summarylog_mainactivity_opennotificationaccesssettings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_notificationlogscreen",
+      "target": "summarylog_mainactivity_opennotificationaccesssettings"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "summarylog_mainactivity_summarylogrootscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogrootscreen",
+      "target": "conversations_conversationdetailscreen_conversationdetailscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogrootscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogrootscreen",
+      "target": "summarylog_summarylogmainscreen_summarylogmainscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogrootscreen",
+      "target": "conversations_conversationfeedscreen_conversationfeedscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogrootscreen",
+      "target": "insights_insightsscreen_insightsscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogrootscreen",
+      "target": "settings_appwhitelistscreen_appwhitelistscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "summarylog_summarylogmainscreen_summarylogmainscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "conversations_conversationthreadscontainerscreen_conversationthreadscontainerscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "settings_appwhitelistscreen_appwhitelistscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "summarylog_mainactivity_greeting"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_summarylogapp",
+      "target": "summarylog_mainactivity_notificationlogscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_notificationrepository_kt",
+      "target": "summarylog_notificationrepository_notificationrepository"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_notificationrepository_kt",
+      "target": "summarylog_notificationrepository_notificationitem"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_notificationrepository_notificationrepository",
+      "target": "summarylog_notificationrepository_notificationrepository_getnotifications"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_notificationrepository_notificationrepository",
+      "target": "summarylog_notificationrepository_notificationrepository_addnotification"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationRepository.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "summarylog_notificationrepository_notificationrepository_getnotifications",
+      "target": "summarylog_notificationitem_notificationitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_notificationcollectorservice_kt",
+      "target": "summarylog_notificationcollectorservice_notificationcollectorservice"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_notificationcollectorservice_notificationcollectorservice",
+      "target": "summarylog_notificationcollectorservice_notificationcollectorservice_oncreate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_notificationcollectorservice_notificationcollectorservice",
+      "target": "summarylog_notificationcollectorservice_notificationcollectorservice_onnotificationposted"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_notificationcollectorservice_notificationcollectorservice",
+      "target": "summarylog_notificationcollectorservice_notificationcollectorservice_ondestroy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "summarylog_notificationcollectorservice_notificationcollectorservice_onnotificationposted",
+      "target": "data_appdatabase_notificationentity"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "summarylog_notificationcollectorservice_notificationcollectorservice_onnotificationposted",
+      "target": "summarylog_notificationrepository_notificationitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ChatMessage.kt",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_chatmessage_kt",
+      "target": "summarylog_chatmessage_chatmessage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "summarylog_chatmessage_chatmessage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_summarylogmainscreen_kt",
+      "target": "summarylog_summarylogmainscreen_summarylogmainscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L439",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_summarylogmainscreen_kt",
+      "target": "summarylog_summarylogmainscreen_resizablesummarylogswindow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L252",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_summarylogmainscreen_kt",
+      "target": "summarylog_summarylogmainscreen_chatbubble"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L365",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "summarylog_summarylogmainscreen_resizablesummarylogswindow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "summarylog_summarylogmainscreen_chatbubble"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "ai_geminichathelper_geminichathelper"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "data_appdatabase_chatmessageentity"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_summarylogmainscreen",
+      "target": "ui_chatsectionheader_chatsectionheader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L323",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_chatbubble",
+      "target": "ui_richmarkdowncontent_richmarkdowncontent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt",
+      "source_location": "L295",
+      "weight": 1.0,
+      "source": "summarylog_summarylogmainscreen_chatbubble",
+      "target": "ui_markdowntext_markdowntext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/RoomAnchor.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_roomanchor_java",
+      "target": "summarylog_roomanchor_roomanchor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/NotificationItem.kt",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_notificationitem_kt",
+      "target": "summarylog_notificationitem_notificationitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_markdowntext_kt",
+      "target": "ui_markdowntext_markdowntext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_markdowntext_kt",
+      "target": "ui_markdowntext_parseinlinemarkdown"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_markdowntext_markdowntext",
+      "target": "ui_markdowntext_parseinlinemarkdown"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "ui_markdowntext_markdowntext",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "ui_richmarkdowncontent_richmarkdowncontent",
+      "target": "ui_markdowntext_markdowntext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/BlinkingCursor.kt",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_blinkingcursor_kt",
+      "target": "ui_blinkingcursor_blinkingcursor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/BlinkingCursor.kt",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "ui_blinkingcursor_blinkingcursor",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "ui_richmarkdowncontent_richmarkdowncontent",
+      "target": "ui_blinkingcursor_blinkingcursor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/CodeBlockView.kt",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_codeblockview_kt",
+      "target": "ui_codeblockview_codeblockview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/CodeBlockView.kt",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "ui_codeblockview_codeblockview",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "ui_richmarkdowncontent_richmarkdowncontent",
+      "target": "ui_codeblockview_codeblockview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_richmarkdowncontent_kt",
+      "target": "ui_richmarkdowncontent_markdownsegment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_richmarkdowncontent_kt",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_richmarkdowncontent_kt",
+      "target": "ui_richmarkdowncontent_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_richmarkdowncontent_kt",
+      "target": "ui_richmarkdowncontent_richmarkdowncontent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_richmarkdowncontent_richmarkdowncontent",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ClearChatConfirmationDialog.kt",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "ui_clearchatconfirmationdialog_clearchatconfirmationdialog",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ChatSectionHeader.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "ui_chatsectionheader_chatsectionheader",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "settings_appwhitelistscreen_appwhitelistscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "conversations_conversationlistscreen_conversationlistscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "conversations_conversationlistscreen_conversationitemrow",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "conversations_conversationdetailscreen_conversationdetailscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "conversations_conversationdetailscreen_messagebubbleitem",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationFeedScreen.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "conversations_conversationfeedscreen_conversationfeedscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/components/SearchBarView.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "components_searchbarview_notificationsearchbar",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "insights_insightsscreen_insightsscreen",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "insights_insightsscreen_statmetriccard",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "insights_insightsscreen_topappprogressrow",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_greeting",
+      "target": "ui_richmarkdowncontent_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_richmarkdowncontent_richmarkdowncontent",
+      "target": "ui_richmarkdowncontent_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ClearChatConfirmationDialog.kt",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_clearchatconfirmationdialog_kt",
+      "target": "ui_clearchatconfirmationdialog_clearchatconfirmationdialog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ChatSectionHeader.kt",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "ui_chatsectionheader_chatsectionheader",
+      "target": "ui_clearchatconfirmationdialog_clearchatconfirmationdialog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/ChatSectionHeader.kt",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_chatsectionheader_kt",
+      "target": "ui_chatsectionheader_chatsectionheader"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/theme/Theme.kt",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_theme_theme_kt",
+      "target": "theme_theme_summarylogtheme"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "summarylog_mainactivity_greetingpreview",
+      "target": "theme_theme_summarylogtheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_settings_appwhitelistscreen_kt",
+      "target": "settings_appwhitelistscreen_installedappitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_settings_appwhitelistscreen_kt",
+      "target": "settings_appwhitelistscreen_loadinstalledapps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_settings_appwhitelistscreen_kt",
+      "target": "settings_appwhitelistscreen_appwhitelistscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "settings_appwhitelistscreen_loadinstalledapps",
+      "target": "settings_appwhitelistscreen_installedappitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "settings_appwhitelistscreen_appwhitelistscreen",
+      "target": "settings_appwhitelistscreen_loadinstalledapps"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "settings_appwhitelistscreen_appwhitelistscreen",
+      "target": "data_appdatabase_monitoredappentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationlistscreen_kt",
+      "target": "conversations_conversationlistscreen_conversationlistscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationlistscreen_kt",
+      "target": "conversations_conversationlistscreen_conversationitemrow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "conversations_conversationlistscreen_conversationlistscreen",
+      "target": "conversations_conversationlistscreen_conversationitemrow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "conversations_conversationlistscreen_conversationlistscreen",
+      "target": "components_searchbarview_notificationsearchbar"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "conversations_conversationthreadscontainerscreen_conversationthreadscontainerscreen",
+      "target": "conversations_conversationlistscreen_conversationlistscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationdetailscreen_kt",
+      "target": "conversations_conversationdetailscreen_opensourceapp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationdetailscreen_kt",
+      "target": "conversations_conversationdetailscreen_conversationdetailscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationdetailscreen_kt",
+      "target": "conversations_conversationdetailscreen_messagebubbleitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "conversations_conversationdetailscreen_conversationdetailscreen",
+      "target": "conversations_conversationdetailscreen_opensourceapp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "conversations_conversationdetailscreen_conversationdetailscreen",
+      "target": "conversations_conversationdetailscreen_messagebubbleitem"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "conversations_conversationthreadscontainerscreen_conversationthreadscontainerscreen",
+      "target": "conversations_conversationdetailscreen_conversationdetailscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationthreadscontainerscreen_kt",
+      "target": "conversations_conversationthreadscontainerscreen_conversationthreadscontainerscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "conversations_conversationthreadscontainerscreen_conversationthreadscontainerscreen",
+      "target": "data_appdatabase_conversationmetaentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/conversations/ConversationFeedScreen.kt",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_conversations_conversationfeedscreen_kt",
+      "target": "conversations_conversationfeedscreen_conversationfeedscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/components/SearchBarView.kt",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_components_searchbarview_kt",
+      "target": "components_searchbarview_notificationsearchbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_insights_insightsscreen_kt",
+      "target": "insights_insightsscreen_insightsscreen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_insights_insightsscreen_kt",
+      "target": "insights_insightsscreen_statmetriccard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ui_insights_insightsscreen_kt",
+      "target": "insights_insightsscreen_topappprogressrow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "insights_insightsscreen_insightsscreen",
+      "target": "insights_insightsscreen_statmetriccard"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "insights_insightsscreen_insightsscreen",
+      "target": "insights_insightsscreen_topappprogressrow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/PrototypeChatEngine.kt",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ai_prototypechatengine_kt",
+      "target": "ai_prototypechatengine_prototypechatengine"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/PrototypeChatEngine.kt",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_prototypechatengine_prototypechatengine",
+      "target": "ai_prototypechatengine_prototypechatengine_generatereply"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_ai_geminichathelper_kt",
+      "target": "ai_geminichathelper_geminichathelper"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_geminichathelper_geminichathelper",
+      "target": "ai_geminichathelper_geminichathelper_streamquerywithnotifications"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ai_geminichathelper_geminichathelper",
+      "target": "ai_geminichathelper_geminichathelper_querywithnotifications"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_notificationentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_appstat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_monitoredappentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_conversationmetaentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_conversationsummary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_notificationdao"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_monitoredappdao"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_chatmessageentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_chatdao"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_appdatabase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_kt",
+      "target": "data_appdatabase_getdatabase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_insert"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_getconversations"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_getconversationthreads"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_searchconversationthreads"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_searchallnotifications"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_getmessagesforconversation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_getallnotifications"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_setconversationmeta"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_markallasread"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_markbatchasread"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_deletebatch"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_deletebyid"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_deleteconversation"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_deleteolderthan"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_clearall"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_gettotalcount"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_getcountsince"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L171",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_gettopapps"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_notificationdao",
+      "target": "data_appdatabase_notificationdao_searchnotifications"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_getallmonitoredapps"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_getmonitoredpackagenames"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_isappmonitored"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_getmonitoredappscount"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_setappmonitoring"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L198",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_setappmonitoringbatch"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_monitoredappdao",
+      "target": "data_appdatabase_monitoredappdao_insertappsifabsent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_chatdao",
+      "target": "data_appdatabase_chatdao_getallmessages"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_chatdao",
+      "target": "data_appdatabase_chatdao_insertmessage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_chatdao",
+      "target": "data_appdatabase_chatdao_updatemessage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_chatdao",
+      "target": "data_appdatabase_chatdao_clearchat"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_appdatabase",
+      "target": "data_appdatabase_appdatabase_notificationdao"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_appdatabase",
+      "target": "data_appdatabase_appdatabase_monitoredappdao"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.kt",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_appdatabase",
+      "target": "data_appdatabase_appdatabase_chatdao"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_java",
+      "target": "data_appdatabase_appdatabase"
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_appdatabase",
+      "target": "roomdatabase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_appdatabase_appdatabase",
+      "target": "data_appdatabase_appdatabase_getdatabase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_worker_notificationpruneworker_kt",
+      "target": "worker_notificationpruneworker_notificationpruneworker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_worker_notificationpruneworker_kt",
+      "target": "worker_notificationpruneworker_schedule"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "worker_notificationpruneworker_notificationpruneworker",
+      "target": "worker_notificationpruneworker_notificationpruneworker_dowork"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/PdfExporter.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_util_pdfexporter_kt",
+      "target": "util_pdfexporter_pdfexporter"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/PdfExporter.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "util_pdfexporter_pdfexporter",
+      "target": "util_pdfexporter_pdfexporter_exportconversationtopdf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/NotificationImageHelper.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_util_notificationimagehelper_kt",
+      "target": "util_notificationimagehelper_notificationimagehelper"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/util/NotificationImageHelper.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "util_notificationimagehelper_notificationimagehelper",
+      "target": "util_notificationimagehelper_notificationimagehelper_extractandsaveimage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/ts/summarylog/ExampleUnitTest.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_test_java_com_ts_summarylog_exampleunittest_kt",
+      "target": "summarylog_exampleunittest_exampleunittest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/test/java/com/ts/summarylog/ExampleUnitTest.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_exampleunittest_exampleunittest",
+      "target": "summarylog_exampleunittest_exampleunittest_addition_iscorrect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/java/com/ts/summarylog/ExampleInstrumentedTest.kt",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_androidtest_java_com_ts_summarylog_exampleinstrumentedtest_kt",
+      "target": "summarylog_exampleinstrumentedtest_exampleinstrumentedtest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/androidTest/java/com/ts/summarylog/ExampleInstrumentedTest.kt",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_exampleinstrumentedtest_exampleinstrumentedtest",
+      "target": "summarylog_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/MainActivity.kt",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "summarylog_mainactivity_greetingpreview",
+      "target": "summarylog_mainactivity_greeting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatMessageEntity.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_chatmessageentity_java",
+      "target": "data_chatmessageentity_chatmessageentity"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_chatdao_java",
+      "target": "data_chatdao_chatdao"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/AppDatabase.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_ts_summarylog_data_appdatabase_java",
+      "target": "roomdatabase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatMessageEntity.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_chatmessageentity_chatmessageentity",
+      "target": "data_chatmessageentity_chatmessageentity_chatmessageentity"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_chatdao_chatdao",
+      "target": "data_chatdao_chatdao_getallmessages"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_chatdao_chatdao",
+      "target": "data_chatdao_chatdao_insertmessage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_chatdao_chatdao",
+      "target": "data_chatdao_chatdao_updatemessage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/ts/summarylog/data/ChatDao.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "data_chatdao_chatdao",
+      "target": "data_chatdao_chatdao_clearchat"
+    }
+  ],
+  "hyperedges": []
+}

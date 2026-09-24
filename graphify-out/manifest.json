@@ -1,0 +1,218 @@
+{
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/build.gradle.kts": {
+    "mtime": 1788714594.4260044,
+    "hash": "4cc2cc275a2843461937c52d8103c9db"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/settings.gradle.kts": {
+    "mtime": 1788709208.6935914,
+    "hash": "ef9fa5165e963f96cbeaaf125314b058"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/gradlew": {
+    "mtime": 1788706586.5597653,
+    "hash": "266606e78242737ef3da02a80ea0564d"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/build.gradle.kts": {
+    "mtime": 1788719813.1879842,
+    "hash": "5fd30e0123af926af04e1d62925c7514"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/MainActivity.kt": {
+    "mtime": 1788721616.2520266,
+    "hash": "ca6af709e0c178f02207800df5736f97"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/NotificationRepository.kt": {
+    "mtime": 1788713913.1721995,
+    "hash": "1c0acd256b629000fe570ccb18c60638"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/NotificationCollectorService.kt": {
+    "mtime": 1788721482.1334426,
+    "hash": "2de0861ce64250ceb7075a0ae470931f"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ChatMessage.kt": {
+    "mtime": 1788708260.6799936,
+    "hash": "1b29a5a41e38b4f59e78a98b309c0b40"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/SummaryLogMainScreen.kt": {
+    "mtime": 1788731136.0102677,
+    "hash": "c19da5f4d36378a82c16a5627aa0c11b"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/RoomAnchor.java": {
+    "mtime": 1788713804.920677,
+    "hash": "546064b258c18ac952edd414a9537523"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/NotificationItem.kt": {
+    "mtime": 1788713292.1892748,
+    "hash": "50c4ebb523021516c3af58136b20f622"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/MarkdownText.kt": {
+    "mtime": 1788708963.082274,
+    "hash": "a061f69365aae8860db4f510e8fa54ae"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/BlinkingCursor.kt": {
+    "mtime": 1788709127.141095,
+    "hash": "a1053369631ed77c1cd5e6bbafac91d1"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/CodeBlockView.kt": {
+    "mtime": 1788709138.7446082,
+    "hash": "aed96b2c96db0462613ab00fedc1d98a"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/RichMarkdownContent.kt": {
+    "mtime": 1788709149.4980788,
+    "hash": "fbb8e483f0701ee748d6b3a703f8eade"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/ClearChatConfirmationDialog.kt": {
+    "mtime": 1788709751.9783225,
+    "hash": "a3b0cb2c5afd7fad9f9db6502ffd676a"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/ChatSectionHeader.kt": {
+    "mtime": 1788723411.1856775,
+    "hash": "0e338c42b168f81bc9b1e34b7213210e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/theme/Color.kt": {
+    "mtime": 1788716384.4612346,
+    "hash": "7b56f6dcd73261465d4641adbe74a396"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/theme/Theme.kt": {
+    "mtime": 1788716483.4187498,
+    "hash": "d55d0a6aa123acb53eeafcea4165b6a4"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/theme/Type.kt": {
+    "mtime": 1788706589.53282,
+    "hash": "cca618d2419325972c08ca2627ab2bd3"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/settings/AppWhitelistScreen.kt": {
+    "mtime": 1788722294.176802,
+    "hash": "3d10d741d0d507c073b5c9c238009c66"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/conversations/ConversationListScreen.kt": {
+    "mtime": 1788720788.761361,
+    "hash": "2b888860bb0487063e5f4a4fbc72cf71"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/conversations/ConversationDetailScreen.kt": {
+    "mtime": 1788720195.4787023,
+    "hash": "128bea30299205e172b1207fc23a325e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/conversations/ConversationThreadsContainerScreen.kt": {
+    "mtime": 1788720161.690073,
+    "hash": "1c2883213fcf9d75143b760f9dbfd9f9"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/conversations/ConversationFeedScreen.kt": {
+    "mtime": 1788721801.196511,
+    "hash": "87ae0169659124ac7db5fe4ee13eedf8"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/components/SearchBarView.kt": {
+    "mtime": 1788720765.688893,
+    "hash": "8dde4c719e3fd526d46545bb53f39efe"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ui/insights/InsightsScreen.kt": {
+    "mtime": 1788721525.0495758,
+    "hash": "9c0afa3ad9b113e4e25af5a8b5503a2c"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ai/PrototypeChatEngine.kt": {
+    "mtime": 1788708262.1250234,
+    "hash": "d600e4f380ec10b549180de8dd84facb"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/ai/GeminiChatHelper.kt": {
+    "mtime": 1788723088.4399316,
+    "hash": "c2fcd8727c0a0e071c7723cde85ea58c"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/data/AppDatabase.kt": {
+    "mtime": 1788722240.2200048,
+    "hash": "9f4e866f54fff12147876d892b8dd8d3"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/data/ChatMessageEntity.java": {
+    "mtime": 1788713835.112388,
+    "hash": "2ca0e828090f51a21e95cc8b5210ed7e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/data/ChatDao.java": {
+    "mtime": 1788713836.6634243,
+    "hash": "2ca0e828090f51a21e95cc8b5210ed7e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/data/AppDatabase.java": {
+    "mtime": 1788713807.3097334,
+    "hash": "2ca0e828090f51a21e95cc8b5210ed7e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/data/NotificationEntity.java": {
+    "mtime": 1788713806.0867045,
+    "hash": "2ca0e828090f51a21e95cc8b5210ed7e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/data/NotificationDao.java": {
+    "mtime": 1788713806.100705,
+    "hash": "2ca0e828090f51a21e95cc8b5210ed7e"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/worker/NotificationPruneWorker.kt": {
+    "mtime": 1788720010.2733264,
+    "hash": "bc4b41de6746f9b0581d3a97496c1ce8"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/util/PdfExporter.kt": {
+    "mtime": 1788720085.945683,
+    "hash": "b4b860d6c43a36e4a6d569ddd643e6c9"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/java/com/ts/summarylog/util/NotificationImageHelper.kt": {
+    "mtime": 1788721461.5823987,
+    "hash": "d24cd964f4c39fb5fc6a44d5e6e2bd03"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/test/java/com/ts/summarylog/ExampleUnitTest.kt": {
+    "mtime": 1788706588.6368036,
+    "hash": "2ab61f6dab1d2172aecfde6532550a4a"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/androidTest/java/com/ts/summarylog/ExampleInstrumentedTest.kt": {
+    "mtime": 1788706588.6768043,
+    "hash": "786bcccb4607b4de93f7bd10c6e13b3d"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/Questions that could be asked in the presentation.md": {
+    "mtime": 1788718732.6672513,
+    "hash": "60aaea04a7ac6b70dfae700c6732a684"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/Project Base.md": {
+    "mtime": 1788718692.9113214,
+    "hash": "a9ab9bda3f2841e0c3f8bbb5d00b6a2f"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/List of Features.md": {
+    "mtime": 1788718643.1921582,
+    "hash": "0d16ceb6d2a6a0f4008c4cc5bff7062a"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/Points and prompt for 5-10 Slide PPT generation of this project.md": {
+    "mtime": 1788718770.5041363,
+    "hash": "362bf7cc36ff2ca9c50ba88690d6d119"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-hdpi/ic_launcher.webp": {
+    "mtime": 1788706587.6907861,
+    "hash": "39d9bb21eb48f128a71c3f01ad3cd427"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp": {
+    "mtime": 1788706587.6967862,
+    "hash": "70d6f58af3c76ee221c829b1ce9daa04"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-mdpi/ic_launcher.webp": {
+    "mtime": 1788706587.7017863,
+    "hash": "d2acce71c7b46e5e9540d23a9f7b2166"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp": {
+    "mtime": 1788706587.7067864,
+    "hash": "6376acb48f96a855ee95c113cd7fd616"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp": {
+    "mtime": 1788706587.7147865,
+    "hash": "bd087d80b70bec05a43c745f29dc3ffc"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp": {
+    "mtime": 1788706587.7197866,
+    "hash": "7479edd56ab712609f030054bffd7263"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp": {
+    "mtime": 1788706587.740787,
+    "hash": "ea180e8d1a2e8300cc998b987266b736"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp": {
+    "mtime": 1788706587.746787,
+    "hash": "947842742b29eeda80ee0805e1600366"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp": {
+    "mtime": 1788706587.7557874,
+    "hash": "54ab624970c86c2146e76b93f27586f7"
+  },
+  "/home/tejas/AndroidStudioProjects/SummaryLog2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp": {
+    "mtime": 1788706587.7597873,
+    "hash": "9ee591be72fb336861a8044086054daa"
+  }
+}
