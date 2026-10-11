@@ -462,6 +462,7 @@ Contributions from the open-source community are warmly welcomed!
 - [ ] **Biometric App Lock**: Fingerprint and Face Unlock authentication to secure access to the notification archive.
 - [ ] **Interactive Notification Actions**: Trigger reply or mark-as-read actions directly from the SummaryLog conversation view.
 - [ ] **Backup & Restore**: Encrypted local database export and import.
+- [ ] **Self-healing pipeline with continual learning**: Drift detection (KS/MMD tests), stateful retraining from a checkpoint, and a champion-challenger gate.
 
 ---
 
@@ -481,4 +482,4 @@ You may obtain a copy of the License at
 
 ---
 
-*Crafted with ❤️ for Android power users and the open-source community.*
+*A Ton of features for Android power users and the open-source community.*
