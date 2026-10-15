@@ -8,26 +8,50 @@ plugins {
 
 android {
     namespace = "com.ts.summarylog"
-    compileSdk {
-        version = release(37)
+    val localProperties = Properties()
+    val localPropertiesFile = project.rootProject.file("local.properties")
+    if (localPropertiesFile.exists()) {
+        localPropertiesFile.inputStream().use { stream ->
+            localProperties.load(stream)
+        }
+    }
+
+    compileSdk = 37
+
+    signingConfigs {
+        create("release") {
+            val storeFilePath = System.getenv("RELEASE_STORE_FILE")
+                ?: localProperties.getProperty("RELEASE_STORE_FILE")
+                ?: "keystore/summarylog-release.jks"
+            val resolvedStoreFile = project.rootProject.file(storeFilePath)
+            if (resolvedStoreFile.exists()) {
+                storeFile = resolvedStoreFile
+                storePassword = System.getenv("RELEASE_STORE_PASSWORD")
+                    ?: localProperties.getProperty("RELEASE_STORE_PASSWORD")
+                    ?: "summarylog123"
+                keyAlias = System.getenv("RELEASE_KEY_ALIAS")
+                    ?: localProperties.getProperty("RELEASE_KEY_ALIAS")
+                    ?: "summarylog"
+                keyPassword = System.getenv("RELEASE_KEY_PASSWORD")
+                    ?: localProperties.getProperty("RELEASE_KEY_PASSWORD")
+                    ?: "summarylog123"
+                enableV1Signing = true
+                enableV2Signing = true
+                enableV3Signing = true
+                enableV4Signing = false
+            }
+        }
     }
 
     defaultConfig {
         applicationId = "com.ts.summarylog"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        val localProperties = Properties()
-        val localPropertiesFile = project.rootProject.file("local.properties")
-        if (localPropertiesFile.exists()) {
-            localPropertiesFile.inputStream().use { stream ->
-                localProperties.load(stream)
-            }
-        }
         val apiKey = localProperties.getProperty("GEMINI_API_KEY") ?: ""
         buildConfigField("String", "GEMINI_API_KEY", "\"$apiKey\"")
     }
@@ -45,6 +69,12 @@ android {
 
     buildTypes {
         release {
+            val releaseSigning = signingConfigs.getByName("release")
+            if (releaseSigning.storeFile != null) {
+                signingConfig = releaseSigning
+            } else {
+                signingConfig = signingConfigs.getByName("debug")
+            }
             optimization {
                 enable = false
             }

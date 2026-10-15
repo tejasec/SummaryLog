@@ -36,6 +36,13 @@ import com.ts.summarylog.ui.settings.AppWhitelistScreen
 import com.ts.summarylog.ui.theme.SummaryLogTheme
 import com.ts.summarylog.worker.NotificationPruneWorker
 
+import android.app.ActivityManager
+import android.content.ComponentName
+import android.net.Uri
+import android.os.Build
+import android.os.PowerManager
+import android.text.TextUtils
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,12 +57,122 @@ class MainActivity : ComponentActivity() {
 }
 
 fun isNotificationAccessGranted(context: Context): Boolean {
-    return NotificationManagerCompat.getEnabledListenerPackages(context)
-        .contains(context.packageName)
+    val fromCompat = try {
+        NotificationManagerCompat.getEnabledListenerPackages(context).contains(context.packageName)
+    } catch (_: Exception) {
+        false
+    }
+    if (fromCompat) return true
+
+    return try {
+        val flat = Settings.Secure.getString(context.contentResolver, "enabled_notification_listeners")
+        if (!TextUtils.isEmpty(flat)) {
+            flat.split(":").any { item ->
+                val component = ComponentName.unflattenFromString(item)
+                component?.packageName == context.packageName
+            }
+        } else {
+            false
+        }
+    } catch (_: Exception) {
+        false
+    }
 }
 
 fun openNotificationAccessSettings(context: Context) {
-    context.startActivity(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS))
+    try {
+        val intent = Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+        context.startActivity(intent)
+    } catch (_: Exception) {
+        // Fallback for Android Go or stripped ROMs where listener settings activity doesn't exist
+        openAppDetailsSettings(context)
+    }
+}
+
+fun openAppDetailsSettings(context: Context) {
+    try {
+        val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
+            data = Uri.parse("package:${context.packageName}")
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+        context.startActivity(intent)
+    } catch (_: Exception) {
+        try {
+            val genericSettings = Intent(Settings.ACTION_SETTINGS).apply {
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            context.startActivity(genericSettings)
+        } catch (_: Exception) {}
+    }
+}
+
+fun isIgnoringBatteryOptimizations(context: Context): Boolean {
+    return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+        try {
+            val pm = context.getSystemService(Context.POWER_SERVICE) as? PowerManager
+            pm?.isIgnoringBatteryOptimizations(context.packageName) ?: false
+        } catch (_: Exception) {
+            false
+        }
+    } else {
+        true
+    }
+}
+
+fun requestIgnoreBatteryOptimizations(context: Context) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+        try {
+            val intent = Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS).apply {
+                data = Uri.parse("package:${context.packageName}")
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            context.startActivity(intent)
+        } catch (_: Exception) {
+            try {
+                val fallbackIntent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS).apply {
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+                context.startActivity(fallbackIntent)
+            } catch (_: Exception) {
+                openAppDetailsSettings(context)
+            }
+        }
+    }
+}
+
+fun openOemAutoStartSettings(context: Context): Boolean {
+    val oemIntents = listOf(
+        Intent().setComponent(ComponentName("com.miui.securitycenter", "com.miui.permcenter.autostart.AutoStartManagementActivity")),
+        Intent().setComponent(ComponentName("com.miui.securitycenter", "com.miui.powercenter.PowerSettings")),
+        Intent().setComponent(ComponentName("com.huawei.systemmanager", "com.huawei.systemmanager.startupmgr.ui.StartupNormalAppListActivity")),
+        Intent().setComponent(ComponentName("com.huawei.systemmanager", "com.huawei.systemmanager.optimize.process.ProtectActivity")),
+        Intent().setComponent(ComponentName("com.coloros.safecenter", "com.coloros.safecenter.permission.startup.StartupAppListActivity")),
+        Intent().setComponent(ComponentName("com.coloros.safecenter", "com.coloros.safecenter.startupapp.StartupAppListActivity")),
+        Intent().setComponent(ComponentName("com.oppo.safe", "com.oppo.safe.permission.startup.StartupAppListActivity")),
+        Intent().setComponent(ComponentName("com.iqoo.secure", "com.iqoo.secure.ui.phoneoptimize.AddWhiteListActivity")),
+        Intent().setComponent(ComponentName("com.vivo.permissionmanager", "com.vivo.permissionmanager.activity.BgStartUpManagerActivity")),
+        Intent().setComponent(ComponentName("com.samsung.android.lool", "com.samsung.android.sm.ui.battery.BatteryActivity")),
+        Intent().setComponent(ComponentName("com.samsung.android.sm", "com.samsung.android.sm.ui.battery.BatteryActivity"))
+    )
+
+    for (intent in oemIntents) {
+        try {
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            if (context.packageManager.resolveActivity(intent, 0) != null) {
+                context.startActivity(intent)
+                return true
+            }
+        } catch (_: Exception) {}
+    }
+    openAppDetailsSettings(context)
+    return false
+}
+
+fun isLowRamDevice(context: Context): Boolean {
+    val am = context.getSystemService(Context.ACTIVITY_SERVICE) as? ActivityManager
+    return am?.isLowRamDevice ?: false
 }
 
 enum class AppTab(val title: String) {

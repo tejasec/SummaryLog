@@ -30,6 +30,7 @@ import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Timer
+import androidx.compose.material.icons.filled.Tune
 import androidx.compose.material.icons.outlined.ContentCopy
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
@@ -40,9 +41,11 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Surface
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -192,8 +195,13 @@ fun SummaryLogMainScreen(
                 .padding(horizontal = 12.dp)
         ) {
             var showRetentionDialog by remember { mutableStateOf(false) }
+            var showRestrictedSettingsDialog by remember { mutableStateOf(false) }
+            var showReliabilityDialog by remember { mutableStateOf(false) }
             val prefs = remember { context.getSharedPreferences("summarylog_settings", Context.MODE_PRIVATE) }
             var retentionDays by remember { mutableStateOf(prefs.getInt("retention_days", 30)) }
+            var persistentNotificationEnabled by remember {
+                mutableStateOf(prefs.getBoolean(NotificationCollectorService.PREF_PERSISTENT_NOTIFICATION, false))
+            }
 
             Row(
                 modifier = Modifier
@@ -207,12 +215,21 @@ fun SummaryLogMainScreen(
                     style = MaterialTheme.typography.titleMedium
                 )
 
-                IconButton(onClick = { showRetentionDialog = true }) {
-                    Icon(
-                        imageVector = Icons.Default.Timer,
-                        contentDescription = "Auto-delete retention settings",
-                        tint = MaterialTheme.colorScheme.primary
-                    )
+                Row {
+                    IconButton(onClick = { showReliabilityDialog = true }) {
+                        Icon(
+                            imageVector = Icons.Default.Tune,
+                            contentDescription = "Background reliability and battery settings",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                    IconButton(onClick = { showRetentionDialog = true }) {
+                        Icon(
+                            imageVector = Icons.Default.Timer,
+                            contentDescription = "Auto-delete retention settings",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
                 }
             }
 
@@ -265,6 +282,136 @@ fun SummaryLogMainScreen(
                 )
             }
 
+            if (showRestrictedSettingsDialog) {
+                AlertDialog(
+                    onDismissRequest = { showRestrictedSettingsDialog = false },
+                    title = { Text("Android 13+ Restricted Setting") },
+                    text = {
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text(
+                                "On Android 13, 14, 15, and 16, sideloaded applications have Notification Access blocked by default ('Restricted setting').",
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                            Text(
+                                "To enable Notification Access:\n" +
+                                "1. Tap 'Open App Info' below.\n" +
+                                "2. Tap the 3 dots (⋮) in the top-right corner.\n" +
+                                "3. Tap 'Allow restricted settings' and confirm your PIN or fingerprint.\n" +
+                                "4. Return to SummaryLog and tap 'Grant Access'.",
+                                style = MaterialTheme.typography.bodyMedium
+                            )
+                        }
+                    },
+                    confirmButton = {
+                        Button(onClick = {
+                            openAppDetailsSettings(context)
+                            showRestrictedSettingsDialog = false
+                        }) {
+                            Text("Open App Info")
+                        }
+                    },
+                    dismissButton = {
+                        TextButton(onClick = { showRestrictedSettingsDialog = false }) {
+                            Text("Cancel")
+                        }
+                    }
+                )
+            }
+
+            if (showReliabilityDialog) {
+                AlertDialog(
+                    onDismissRequest = { showReliabilityDialog = false },
+                    title = { Text("Background Reliability & Battery") },
+                    text = {
+                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                            Text(
+                                "Ensure SummaryLog is not terminated in the background by aggressive OEM power managers (Samsung, Xiaomi, Oppo, Vivo, OnePlus).",
+                                style = MaterialTheme.typography.bodySmall
+                            )
+
+                            HorizontalDivider()
+
+                            // Persistent Status Notification toggle
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text("Keep Active in Background", style = MaterialTheme.typography.bodyMedium)
+                                    Text(
+                                        "Displays a low-priority ongoing notification to prevent Android from killing the listener.",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = Color.Gray
+                                    )
+                                }
+                                Switch(
+                                    checked = persistentNotificationEnabled,
+                                    onCheckedChange = { enabled ->
+                                        persistentNotificationEnabled = enabled
+                                        prefs.edit().putBoolean(NotificationCollectorService.PREF_PERSISTENT_NOTIFICATION, enabled).apply()
+                                        NotificationCollectorService.updateOngoingNotification(context, enabled)
+                                    }
+                                )
+                            }
+
+                            HorizontalDivider()
+
+                            // Battery Optimization
+                            val isExempted = isIgnoringBatteryOptimizations(context)
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween,
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text("Battery Optimization", style = MaterialTheme.typography.bodyMedium)
+                                    Text(
+                                        if (isExempted) "Exempted (Unrestricted)" else "Optimized (May be killed)",
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = if (isExempted) MaterialTheme.colorScheme.primary else Color.Gray
+                                    )
+                                }
+                                if (!isExempted) {
+                                    Button(onClick = { requestIgnoreBatteryOptimizations(context) }) {
+                                        Text("Exempt")
+                                    }
+                                }
+                            }
+
+                            HorizontalDivider()
+
+                            // OEM Auto-Start & Rebind
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                OutlinedButton(
+                                    onClick = { openOemAutoStartSettings(context) },
+                                    modifier = Modifier.weight(1f)
+                                ) {
+                                    Text("Auto-Start", maxLines = 1)
+                                }
+                                OutlinedButton(
+                                    onClick = {
+                                        NotificationCollectorService.forceRebind(context)
+                                        Toast.makeText(context, "Listener reconnection requested", Toast.LENGTH_SHORT).show()
+                                    },
+                                    modifier = Modifier.weight(1f)
+                                ) {
+                                    Text("Reconnect", maxLines = 1)
+                                }
+                            }
+                        }
+                    },
+                    confirmButton = {
+                        TextButton(onClick = { showReliabilityDialog = false }) {
+                            Text("Done")
+                        }
+                    }
+                )
+            }
+
             var searchQuery by remember { mutableStateOf("") }
 
             OutlinedTextField(
@@ -299,16 +446,45 @@ fun SummaryLogMainScreen(
             }
 
             if (!hasPermission.value) {
-                Button(
-                    onClick = {
-                        openNotificationAccessSettings(context)
-                        hasPermission.value = isNotificationAccessGranted(context)
-                    },
+                Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(bottom = 8.dp)
+                        .padding(bottom = 8.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer)
                 ) {
-                    Text("Grant Notification Access")
+                    Column(modifier = Modifier.padding(12.dp)) {
+                        Text(
+                            text = "Notification Access Required",
+                            style = MaterialTheme.typography.titleSmall,
+                            color = MaterialTheme.colorScheme.onErrorContainer
+                        )
+                        Text(
+                            text = "SummaryLog requires system Notification Access to record alerts. On Android 13+, sideloaded apps may require allowing restricted settings.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onErrorContainer,
+                            modifier = Modifier.padding(vertical = 4.dp)
+                        )
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            Button(
+                                onClick = {
+                                    openNotificationAccessSettings(context)
+                                    hasPermission.value = isNotificationAccessGranted(context)
+                                },
+                                modifier = Modifier.weight(1f)
+                            ) {
+                                Text("Grant Access")
+                            }
+                            OutlinedButton(
+                                onClick = { showRestrictedSettingsDialog = true },
+                                modifier = Modifier.weight(1f)
+                            ) {
+                                Text("Restricted Setting?")
+                            }
+                        }
+                    }
                 }
             }
 
